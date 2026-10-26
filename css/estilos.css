@@ -1,0 +1,422 @@
+@font-face {
+    font-family: "Aldrich";
+    src: url("../font/Aldrich-Regular.ttf");
+}
+@font-face {
+    font-family: "pixel";
+    src: url("../font/PressStart2P-Regular.ttf");
+}
+@font-face {
+    font-family: "russo";
+    src: url("../font/RussoOne-Regular.ttf");
+}
+@font-face {
+    font-family: "lobster";
+    src: url("../font/Lobster-Regular.ttf");
+}
+@font-face {
+    font-family: "Redes";
+    src: url("../font/Grunge-Social-Media.ttf");
+}
+
+html{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar{
+    font-family: Aldrich;
+}
+.logotipo{
+    width: 75px;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.7);
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.card:hover{
+    box-shadow: 0px 0px 5px #000;
+}
+.img_p02{
+    height: 185px;
+}
+#portada{
+    background: url(../imagenes/fondo.jpeg);
+    background-size: cover;
+        height: 94vh;
+        width: 100%;
+        color: #fff;
+        text-align: start;
+        padding-top: 30vh;
+        box-sizing: border-box;
+}
+#contactame{
+    background: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+        height: 200px;
+        width: 100%;
+        color: #fff;
+        text-align: start;
+        padding-top: 15vh;
+        box-sizing: border-box;
+}
+.titulo{
+    font-family: russo;
+    font-size: 4rem;
+}
+@media (max-width: 320px) {
+    .titulo {
+        font-family: russo;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 375px) {
+    .titulo {
+        font-family: russo;
+        font-size: 1.9rem;
+    }
+}
+@media (max-width: 425px) {
+    .titulo {
+        font-family: russo;
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 595px) {
+    .titulo {
+        font-family: russo;
+        font-size: 2.7rem;
+    }
+}
+.subti{
+    font-size: 1.5rem;
+}
+@media (max-width: 320px) {
+    .subti {
+        font-size: 15px;
+    }
+}
+@media (max-width: 375px) {
+    .subti {
+        font-size: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .subti {
+        font-size: 23px;
+    }
+}
+#barra{
+    width: 500px;
+    height: 4px;
+    background-color: rgb(0, 174, 255);
+}
+@media (max-width: 595px) {
+    #barra {
+        width: 430px;
+    }
+}
+@media (max-width: 425px) {
+    #barra {
+        width: 330px;
+    }
+}
+@media (max-width: 375px) {
+    #barra {
+        width: 300px;
+    }
+}
+@media (max-width: 320px) {
+    #barra {
+        width: 250px;
+    }
+}
+
+
+
+.tquien{
+    font-family: pixel;
+    font-size: 2.5rem;
+}
+@media (max-width: 342px) {
+    .tquien{
+        font-family: pixel;
+        font-size: 2rem;
+    }
+}
+#filosofia{
+    background: rgb(31, 31, 31);
+    text-align: center;
+    font-family: lobster;
+}
+.tproyect{
+    font-family: pixel;
+    font-size: 2.5rem;
+}
+@media (max-width: 600px) {
+    .tproyect {
+        font-family: pixel;
+        font-size: 1.8rem;
+    }
+}
+.card{
+    margin: 40px;
+    background-color: rgb(28, 103, 255);
+    color: #fff;
+    font-family: Aldrich;
+}
+.cardsize{
+    text-align: justify;
+}
+section{
+    background: url(../imagenes/fondoSec.avif);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.articquien{
+    width: 510px;
+}
+@media (max-width: 991px) {
+    .articquien {
+        width: auto;
+    }
+}
+@media (max-width: 1199px) {
+    .articquien {
+        width: 470px;
+    }
+}
+#quien article {
+    text-align: center;
+}
+
+#quien article h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.articrs{
+    width: 400px;
+    background-color: #fff7;
+    margin-left: auto !important;
+        margin-right: auto !important;
+        float: none;
+}
+@media (max-width: 991px) {
+    .articrs{
+    width: 400px;
+    margin: 0px 50px 50px 50px;
+    background-color: #fff7;
+    
+}
+}
+.articrs{
+    width: 400px;
+    margin: 0px 50px 50px 50px;
+    background-color: #fff7;
+    
+}
+.main-content {
+    flex: 1;
+}
+#contactos{
+    background: dimgrey;
+    width: 100%;
+    height: 100px;
+    font-family: pixel;
+    font-size: 2rem;
+}
+
+
+.rssize{
+    font-size: 20px;
+    text-align: justify;
+}
+.cyn{
+    display: inline;
+    font-size: 1rem;
+    margin: 6px;
+}
+@media (max-width: 375px) {
+.cyn{
+    display: inline;
+    font-size: 0.8rem;
+    margin: 6px;
+}
+}
+.recline{
+    background-color: rgb(0, 110, 255);
+    width: 100%;
+    height: 3px;
+    margin-bottom: 50px;
+}
+#redes{
+        font-family: aldrich, cursive;
+        margin-top: 40px;
+        
+}
+@media (max-width: 767px) {
+
+#redes{
+        font-family: aldrich, cursive;
+        margin-top:0px;
+        
+}
+}
+.redes{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.icono{
+    font-size: 50px;
+    font-family: Redes, cursive;
+}
+#menu_contact{
+    background: url(../imagenes/fondo3.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+    #glass{
+        width: 80%;
+        margin: 0 auto;
+        background-color: rgba(89, 165, 224, 0.3);
+        border:1px solid rgba(17, 73, 255, 0.6);
+        padding: 25px;
+        backdrop-filter: blur(10px);
+
+    }
+    @media (max-width: 600px){
+    #glass{
+        width: 100vw;
+        max-width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: 0;
+        box-sizing: border-box;
+        border-radius: 0;
+        padding: 25px;
+    }
+}
+
+        input{
+            width: 90%;
+            margin: 10px;
+            border: none;
+            padding: 12px;
+            color:#06126c;
+            font-size: 1.3rem;
+        }
+
+        input:focus{
+            outline: 0px;
+            color:#fff;
+            background-color: #06176c;
+        }
+
+        input[type="submit"]{
+            font-family: Bubbler, cursive;
+            color:#fff;
+            background-color: #0c40c3;
+            font-weight: bold;
+            letter-spacing: 3px;
+            width:130px;
+        }
+
+        input[type="submit"]:hover{
+            background-color: #fff;
+            color:#465bd2;
+            cursor: pointer;
+        }
+
+    #mapa{
+        width: 100%;
+        height: 300px;
+    }
+.contenedor{
+    padding: 70px;
+    text-align: center;
+}
+#glass textarea.mensaje {
+    display: block;
+    width: 90%;
+    height: 150px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin: 10 auto 12px;
+    padding: 10px;
+}  
+
+.tmensaje{
+    font-family: pixel;
+    color: white;
+}
+
+@media (max-width: 991.98px) {
+    #quien article {
+        text-align: center !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+
+    #quien article h1 {
+        text-align: center !important;
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+.titulo2{
+    font-family: russo;
+    font-size: 4rem;
+}
+@media (max-width: 991px) {
+    .titulo2 {
+        font-family: russo;
+        font-size: 4rem;
+    }
+}
+@media (max-width: 741px) {
+    .titulo2 {
+        font-family: russo;
+        font-size: 3rem;
+        padding: 1rem;
+    }
+}
+@media (max-width: 585px) {
+    .titulo2 {
+        font-family: russo;
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+}
+@media (max-width: 490px) {
+    .titulo2 {
+        font-family: russo;
+        font-size: 2.5rem;   
+    }
+}
+@media (max-width: 343px) {
+    .titulo2 {
+        font-family: russo;
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+}
+
+

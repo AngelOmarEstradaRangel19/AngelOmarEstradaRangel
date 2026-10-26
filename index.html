@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+   
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/estilos.css">
+   <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+
+    <title>Mi Pagina</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg bg-black navbar-dark py-0 fixed-top">
+  <nav class="container">
+     <a class="navbar-brand" href="#">
+        <img src="imagenes/logo.png" alt="Logo" class="d-inline-block align-text-middle logotipo">
+      OMAR ESTRADA
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="#quien">¿Quién Soy?</a>
+        <a class="nav-link" href="#filosofia">Filosofía</a>
+        <a class="nav-link" href="#proyectos">Proyectos</a>
+        <a class="nav-link" href="contactos.html">Contactos</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section id="portada">
+  <h1 class="titulo col-6 offset-lg-2 offset-1">Angel Omar</h1>
+  <h1 class="titulo offset-lg-2 offset-1">Estrada Rangel</h1>
+  <nav id="barra" class="offset-lg-2 offset-1"></nav>
+  <h3 class="subti offset-lg-2 offset-1"></h3>
+  <h3 class="subti offset-lg-2 offset-1">Portafolio Digital - Tecnología - Innovación</h3>
+</section>
+
+<section id="quien" class="container py-5">
+    <div class="row">
+        <figure class="col-12 col-lg-6 col-md-12 offset-0 offset-md-0 offset-lg-0 d-flex justify-content-center">
+            <img src="imagenes/QuienSoy.png" alt="QuienSoy" class="img-fluid border-start border-end border-2 border-dark" style="width: 450px;">
+        </figure>
+
+        <article class="col-12 col-lg-6 text-center pt-lg-5 articquien">
+            <h1 class="fw-bold text-primary text-lg-start tquien">¿Quién Soy?</h1>
+            <p></p>
+            <p id="parrafo" class="collapse d-lg-block cardsize">Soy estudiante de la Universidad Tecnológica de León en la carrera de Tecnologías de la Información e Innovación Digital, con especialización en Entornos Virtuales y Negocios Digitales.</p>
+            <p id="parrafo" class="collapse d-lg-block cardsize">Soy originario de León, Guanajuato, me apasiona la innovación, el diseño de soluciones creativas y el desarrollo de ideas que resuelvan necesidades reales. </p>
+            <p id="parrafo" class="collapse d-lg-block cardsize">Me caracterizo por mi capacidad de adaptación, el pensamiento lógico y el entusiasmo por transformar problemas complejos en proyectos funcionales e interactivos.</p>
+            <a class="btn btn-primary d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Leer más...
+  </a>
+        </article>
+    </div>
+</section>
+
+<section id="filosofia" class="text-light py-5">
+  <article class="container">
+    <img src="imagenes/Omar.png" alt="Usuario" class="img-fluid rounded-circle d-none d-lg-inline mb-5" style="width: 350px;">
+    <p class="fs-2">"Creo firmemente que la tecnología cumple su verdadero propósito cuando transforma ideas creativas en soluciones sencillas, funcionales e intencionales para las personas y sus negocios."</p>
+    <span class="h5 fst-italic">- Angel Omar Estrada Rangel</span>
+  </article>
+</section>
+
+<section id="proyectos" class="py-5 container">
+  <h1 class="tproyect display-4 fw-bold text-center text-primary">Mis Proyectos</h1>
+  <div class="row">
+
+    <article class="col-10 offset-1 col-md-6 offset-md-0  ">
+      <div class="card">
+        <img src="imagenes/fotografia.jpeg" class="card-img-top" alt="Realidad Virtual">
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-start text-lg-center">Fotografía</h5>
+          <p class="card-text d-none d-lg-block cardsize">Utilizo la fotografía para destacar objetos, capturar detalles y crear imágenes visualmente atractivas. Mediante el encuadre, la iluminación y la composición, busco transmitir una idea y resaltar las características más importantes de cada elemento.</p>
+          <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv">Ver proyecto</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="col-10 offset-1 col-md-6 offset-md-0">
+      <div class="card">
+        <img src="imagenes/publicidad.png" class="card-img-top" alt="Ciberseguridad">
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-start text-lg-center">Diseño Publicitario</h5>
+          <p class="card-text d-none d-lg-block cardsize">Diseños publicitarios que combinan imágenes, colores y tipografías para destacar productos, promocionar servicios y captar la atención del público. Busco transformar ideas en piezas visuales atractivas que comuniquen un mensaje de manera clara y efectiva.</p>
+          <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv_2">Ver proyecto</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="col-10 offset-1 col-md-8 offset-md-2">
+      <div class="card">
+        <img src="imagenes/modelado.png" class="card-img-top"  alt="Modelado 3D">
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-start text-lg-center">Modelado 3D</h5>
+          <p class="card-text d-none d-lg-block cardsize">Modelos y escenarios tridimensionales a partir de ideas y referencias visuales. Trabajo con formas, materiales, iluminación y sombras para crear objetos y espacios digitales que permitan visualizar conceptos de manera realista o estilizada.</p>
+          <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv_3">Ver proyecto</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="col-10 offset-1">
+      <div class="card">
+        <video src="video/animacion.mp4" controls poster="imagenes/animacion.jpeg" class="card-img-top" alt="Video Animación"></video>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-start text-lg-center">Animación </h5>
+          <p class="card-text d-none d-lg-block cardsize">Doy movimiento a ideas y elementos visuales mediante la creación de animaciones. Trabajo con el movimiento de objetos, la composición de escenas y los recursos visuales para desarrollar secuencias dinámicas que permitan comunicar ideas de una forma más atractiva.</p>
+          <a href="#" class="btn btn-primary d-lg-none" data-bs-toggle="modal" data-bs-target="#proy_rv_4">Ver proyecto</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="contactos" class="text-light py-4">
+  <div class="row">
+    <h1 class="tcontactos col-md-6 text-center col-lg-3 offset-lg-2">Contactos</h1>
+    <div class="col-md-5 col-lg-4 mx-auto text-center">
+    <a class="btn btn-primary w-100 py-3"
+       href="contactos.html">
+        Más Información
+    </a>
+</div>
+  </div>
+</section>
+
+<footer class="container-fluid bg-black text-white text-center " style="height: 100px;">
+  <p class="py-5 h5"> Copyrigth 2026 - Angel Omar Estrada Rangel</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------- Ventanas Modales  ---------------->
+
+<div class="modal fade" id="proy_rv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Fotografía</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Utilizo la fotografía para destacar objetos, capturar detalles y crear imágenes visualmente atractivas. Mediante el encuadre, la iluminación y la composición, busco transmitir una idea y resaltar las características más importantes de cada elemento.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="proy_rv_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Diseño Publicitario</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Diseños publicitarios que combinan imágenes, colores y tipografías para destacar productos, promocionar servicios y captar la atención del público. Busco transformar ideas en piezas visuales atractivas que comuniquen un mensaje de manera clara y efectiva.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="proy_rv_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Modelado 3D</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Modelos y escenarios tridimensionales a partir de ideas y referencias visuales. Trabajo con formas, materiales, iluminación y sombras para crear objetos y espacios digitales que permitan visualizar conceptos de manera realista o estilizada.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="proy_rv_4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Realidad Aumentada</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Doy movimiento a ideas y elementos visuales mediante la creación de animaciones. Trabajo con el movimiento de objetos, la composición de escenas y los recursos visuales para desarrollar secuencias dinámicas que permitan comunicar ideas de una forma más atractiva.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
